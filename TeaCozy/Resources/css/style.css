@@ -1,0 +1,129 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: auto;
+}
+
+/* header*/
+header{
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img{
+  height: 50px;
+  padding-left: 10px;
+  align: left;
+}
+nav{
+  text-align: right;
+  display: block;
+  flex-grow: 1;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+a{
+  color: seashell;
+}
+
+/*top-body*/
+.top-body{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  display: flex;
+  flex-wrap: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: auto;
+}
+.content{
+  width: 100%;
+  text-align: center;
+  background: black;
+  margin: auto;
+}
+h2{
+  display: block;
+}
+h4{
+  display: block;
+  font-weight: bold;
+}
+/*middle-body*/
+.middle-body{
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.tea-lable{
+  margin: 0;
+  padding: 10px;
+}
+.tea-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tea{
+  width: 300px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.tea img{
+  height: 200px;
+  display: block;
+}
+.tea h4{
+  font-weight: bold;
+}
+/*low-body*/
+.low-body{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+  width: 1100px;
+  margin: auto;
+}
+.location-container{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5px;
+  width: 1100px;
+}
+
+.location{
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 5px 20px;
+  padding: 10px;
+  flex-basis: 280px;
+}
+/*end-body*/
+.end-body{
+
+}
+/*footer*/
+.footer{
+  text-align: left;
+  padding-left: 20px;
+}
